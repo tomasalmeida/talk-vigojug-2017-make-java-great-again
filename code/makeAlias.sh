@@ -1,0 +1,5 @@
+alias gb1="time  java -Xms2m -Xmx14m -XX:-UseParallelOldGC GCTest #(crash)"
+alias gb2="time  java -Xms2m -Xmx14m -XX:-UseConcMarkSweepGC GCTest"
+alias gb3="time  java -Xms2m -Xmx14m -XX:+UseG1GC GCTest"
+alias gb4="time  java -Xms2m -Xmx14m -XX:-UseParallelGC GCTest"
+alias gb5="time  java -Xms2m -Xmx14m -XX:-UseSerialGC GCTest"
